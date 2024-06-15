@@ -9,5 +9,5 @@ app.use('/api/subjects', subjects);
 const port = global.process.env.PORT || 3000;
 
 app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+  console.log(`Listening on port http://localhost:${port}`);
 });
